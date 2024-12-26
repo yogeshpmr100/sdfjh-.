@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BOAT - Minecraft Bot Controller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BOAT - Minecraft Bot Controller</h1>
+        
+        <div class="status-box">
+            <div class="status-indicator"></div>
+            <span>Bot Status: <span id="botStatus">Online</span></span>
+        </div>
+
+        <div class="server-info">
+            <div class="info-item">Server: kitsmpyog.aternos.me</div>
+            <div class="info-item">Bot Name: BOAT</div>
+            <div class="info-item">Version: 1.20.4</div>
+            <div class="info-item">Last Updated: <span class="time" id="lastUpdate"></span></div>
+        </div>
+
+        <div class="bot-controls">
+            <button onclick="checkStatus()">Check Status</button>
+            <button onclick="reconnectBot()">Reconnect Bot</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

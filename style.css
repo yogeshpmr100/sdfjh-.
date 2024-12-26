@@ -1,0 +1,79 @@
+body {
+    font-family: 'Minecraft', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #2c2f33;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #23272a;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #7289da;
+    margin-bottom: 30px;
+}
+
+.status-box {
+    background: #40444b;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.status-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #43b581;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.server-info {
+    margin: 20px 0;
+    padding: 15px;
+    background: #40444b;
+    border-radius: 5px;
+}
+
+.info-item {
+    margin: 10px 0;
+}
+
+.time {
+    color: #7289da;
+    font-weight: bold;
+}
+
+.bot-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    background: #7289da;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    flex: 1;
+}
+
+button:hover {
+    background: #5b6eae;
+}
+
+.offline .status-indicator {
+    background: #f04747;
+}
